@@ -1,22 +1,21 @@
 {
   "name": "simple-cam",
   "description": "Very simple webcam viewer for desktop.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
     "url": "http://zacanger.com"
   },
   "license": "WTFPL",
-  "main": "index.html",
+  "main": "app.js",
   "preferGlobal": true,
   "bin": {
     "cam": "./index.js",
     "simple-cam": "./index.js"
   },
   "scripts": {
-    "start": "node index",
-    "postinstall": "nw install 0.15.0"
+    "start": "node index"
   },
   "homepage": "https://github.com/zacanger/simple-cam#readme",
   "repository": {
@@ -28,22 +27,16 @@
     "cam",
     "camera",
     "desktop",
+    "electron",
     "simple",
     "webcam"
   ],
   "dependencies": {
-    "nwjs": "^1.4.3"
+    "electron": "^1.4.13",
+    "electroner": "^4.0.2"
   },
   "devDependencies": {},
   "engines": {
     "node": ">=6.0.0"
-  },
-  "window": {
-    "show": false,
-    "frame": false,
-    "position": "mouse",
-    "width": 400,
-    "height": 300,
-    "toolbar": false
   }
 }

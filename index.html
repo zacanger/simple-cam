@@ -8,14 +8,6 @@
       video { display: block; }
     </style>
     <script type="text/javascript">
-      const gui = require('nw.gui')
-
-      if (process.platform == 'darwin') {
-        let menu = new gui.Menu({type : 'menubar'})
-        menu.createMacBuiltin && menu.createMacBuiltin(window.document.title)
-        gui.Window.get().menu = menu
-      }
-
       navigator.webkitGetUserMedia(
         {video : true}
       , function(stream) {
