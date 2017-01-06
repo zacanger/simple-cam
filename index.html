@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>cam</title>
+    <style type="text/css">
+      html, body, video { height: 100%; width: 100%; margin: 0; }
+      video { display: block; }
+    </style>
+    <script type="text/javascript">
+      const gui = require('nw.gui')
+
+      if (process.platform == 'darwin') {
+        let menu = new gui.Menu({type : 'menubar'})
+        menu.createMacBuiltin && menu.createMacBuiltin(window.document.title)
+        gui.Window.get().menu = menu
+      }
+
+      navigator.webkitGetUserMedia(
+        {video : true}
+      , function(stream) {
+          document.getElementById('cam').src = URL.createObjectURL(stream)
+        }
+      , function() {
+          alert('could not connect to stream')
+        }
+      )
+      gui.Window.get().show()
+
+   </script>
+  </head>
+  <body>
+    <video id="cam" autoplay></video>
+  </body>
+</html>
