@@ -14,4 +14,4 @@ Very simple webcam viewer for desktop.
 
 ## License:
 
-WTFPL
+[MIT](./LICENSE.md)
