@@ -7,7 +7,7 @@
     "email": "zac@zacanger.com",
     "url": "http://zacanger.com"
   },
-  "license": "WTFPL",
+  "license": "MIT",
   "main": "app.js",
   "preferGlobal": true,
   "bin": {
@@ -32,8 +32,8 @@
     "webcam"
   ],
   "dependencies": {
-    "electron": "^1.4.13",
-    "electroner": "^4.0.2"
+    "electron": "1.7.10",
+    "electroner": "4.0.7"
   },
   "devDependencies": {},
   "engines": {
