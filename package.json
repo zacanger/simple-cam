@@ -32,7 +32,7 @@
     "webcam"
   ],
   "dependencies": {
-    "electron": "1.7.10",
+    "electron": "1.7.11",
     "electroner": "4.0.7"
   },
   "devDependencies": {},
