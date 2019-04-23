@@ -11,7 +11,6 @@
   "main": "app.js",
   "preferGlobal": true,
   "bin": {
-    "cam": "./index.js",
     "simple-cam": "./index.js"
   },
   "scripts": {
@@ -32,8 +31,8 @@
     "webcam"
   ],
   "dependencies": {
-    "electron": "1.7.11",
-    "electroner": "4.0.7"
+    "electron": "4.1.4",
+    "electroner": "4.0.8"
   },
   "devDependencies": {},
   "engines": {

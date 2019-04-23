@@ -10,7 +10,7 @@ Very simple webcam viewer for desktop.
 
 ## Usage:
 
-`simple-cam` or `cam`
+`simple-cam`
 
 ## License:
 
