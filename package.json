@@ -1,7 +1,7 @@
 {
   "name": "simple-cam",
   "description": "Very simple webcam viewer for desktop.",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
