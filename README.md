@@ -12,6 +12,4 @@ Very simple webcam viewer for desktop.
 
 `simple-cam`
 
-## License:
-
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
